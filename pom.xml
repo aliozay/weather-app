@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     
-    <name>Weather App</name>
+    <name>SkyFX</name>
     <description>A Java application to fetch weather data from OpenWeather API</description>
     
     <properties>

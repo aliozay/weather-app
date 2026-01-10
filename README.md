@@ -1,4 +1,4 @@
-# Weather App (JavaFX Modernized)
+# SkyFX (JavaFX Modernized)
 
 A sleek and modern weather application built with JavaFX, fetching real-time data from the OpenWeather API.
 
