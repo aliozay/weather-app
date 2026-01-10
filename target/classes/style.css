@@ -1,0 +1,87 @@
+.root {
+  -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  -fx-base: #1a1a1a;
+  -fx-background: #121212;
+}
+
+.main-container {
+  -fx-background-color: linear-gradient(
+    to bottom right,
+    #1a2a6c,
+    #b21f1f,
+    #fdbb2d
+  );
+  -fx-padding: 20;
+}
+
+.glass-pane {
+  -fx-background-color: rgba(255, 255, 255, 0.1);
+  -fx-background-radius: 15;
+  -fx-border-color: rgba(255, 255, 255, 0.2);
+  -fx-border-radius: 15;
+  -fx-border-width: 1;
+  -fx-padding: 20;
+}
+
+.search-field {
+  -fx-background-color: rgba(255, 255, 255, 0.2);
+  -fx-text-fill: white;
+  -fx-prompt-text-fill: #cccccc;
+  -fx-background-radius: 20;
+  -fx-padding: 10 20;
+  -fx-font-size: 14;
+}
+
+.search-button {
+  -fx-background-color: #4caf50;
+  -fx-text-fill: white;
+  -fx-background-radius: 20;
+  -fx-padding: 10 25;
+  -fx-font-weight: bold;
+  -fx-cursor: hand;
+}
+
+.search-button:hover {
+  -fx-background-color: #45a049;
+}
+
+.title-label {
+  -fx-font-size: 28;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
+
+.temp-label {
+  -fx-font-size: 48;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
+
+.info-label {
+  -fx-font-size: 16;
+  -fx-text-fill: #e0e0e0;
+}
+
+.forecast-card {
+  -fx-background-color: rgba(255, 255, 255, 0.05);
+  -fx-background-radius: 10;
+  -fx-padding: 10;
+  -fx-alignment: center;
+  -fx-min-width: 100;
+}
+
+.forecast-card:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.forecast-date {
+  -fx-font-size: 12;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
+
+.forecast-temp {
+  -fx-font-size: 16;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
